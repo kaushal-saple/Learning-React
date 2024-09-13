@@ -1,0 +1,62 @@
+Q.1 Whatis Emment?
+Emmet is a tool that helps you write HTML and CSS code faster. You type short shortcuts, and Emmet automatically turns them into full code. For example, instead of typing out a long list in HTML, you can type a simple abbreviation, press a key (like Tab), and Emmet will expand it into the full code. It saves time and makes coding easier.
+
+
+
+Q.2 Difference between library and Framework?
+The main difference between a library and a framework is in how they are used and how much control they give to the developer.
+1. Library:
+Definition: A library is a collection of pre-written code that you can use to perform common tasks.
+Control: You have full control of your application, and you call the functions or methods from the library whenever you need them.
+Example:
+jQuery (for simplifying JavaScript DOM manipulation).
+React (for building user interfaces; it’s technically a UI library).
+Analogy: Using a library is like going to a toolbox and choosing which tool you need to complete the task.
+2. Framework:
+Definition: A framework provides a structured foundation for building applications. It gives you a skeleton where the framework itself calls your code and handles much of the application flow.
+Control: The framework is in control, and you follow its structure and rules. You only fill in specific parts of the code.
+Example:
+Angular (for building front-end web applications).
+Express (for building back-end web applications).
+Django (for building full-stack web applications).
+Analogy: Using a framework is like working inside a pre-built house. You have to work within the rules of the house, and it determines how things should be done.
+
+Key Differences:
+Inversion of Control: In a framework, the flow of control is dictated by the framework (often called "Hollywood Principle": “Don’t call us, we’ll call you”). In a library, you call the code as needed.
+Flexibility: A library is more flexible—you decide how to integrate it. A framework is less flexible, as it enforces certain structures and rules.
+
+
+
+Q.3 Why is React Known as React?
+React is called "React" because it is designed to efficiently react to changes in data. The name reflects its core functionality: it reacts to state changes by updating the user interface (UI) in response to those changes in an efficient way.
+
+
+
+Q.4 What is crossorigin in Script tag?
+The crossorigin attribute in the <script> tag is used when loading scripts from a different website or domain (cross-origin). It tells the browser how to handle these requests, especially for security purposes like verifying that the script hasn’t been tampered with.
+
+
+
+Q.5 Difference in React and ReactDOM.
+React is the library for building components and managing the application's logic.
+ReactDOM is the tool that renders those components to the browser and updates the DOM.
+In a React app, you typically use React to build components and ReactDOM to render them on the web page.
+
+
+
+Q.6 What is difference between react.development.js and react.production.js files via CDN?
+Use react.development.js for debugging and development.
+Use react.production.js when deploying your app to users to ensure it's optimized and efficient.
+
+
+
+Q.7 What is async and defer?
+Use async for scripts that don’t depend on others and can run independently without affecting the DOM.
+Use defer for scripts that need the whole document to be parsed before running (like DOM manipulation).
+
+
+
+
+
+
+
